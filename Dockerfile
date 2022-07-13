@@ -1,0 +1,3 @@
+FROM node:10.17.0
+WORKDIR /usr/src/app
+EXPOSE 8080

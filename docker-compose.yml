@@ -1,0 +1,10 @@
+version: '2'
+services:
+  appder:
+    build: .
+    container_name: teste
+    command: ["npm", "run","startup"]
+    ports:
+      - 10000:8080
+    volumes:
+      - .:/usr/src/app
